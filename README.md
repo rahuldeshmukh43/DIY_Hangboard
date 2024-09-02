@@ -78,10 +78,12 @@ For the entire project we used these machines -- (1) Jointer, (2) Planar, (3) Mi
 - <ins>CAM:</ins> We used Autdesk Fusion 360 for CAM. BIDC provides access to their Gantry CNC CAM model which was used to do the CAM. We used a 3-axis CNC machine for the CAM and carried out the following operations -- TODO:
 
 - <ins>Machining:</ins> The Hangoard was majorly machined using the CNC Gantry. We first prepared a wooden block of the size detailed in BOM. To create the wooden block, we first used the Jointer to create two flat edges. Then we used the Planar to machine the raw material to the designed depth (6"). We finally used the Miter Saw and Table Saw to cut the block to the desired length and width. 
-<br>
-After machining the wooden block, we placed it onto the CNC Gantry. This involved, routing a gasket on the Gantry to allow for vaccum holding of the block. Once the block is tightly secured, we set the origin of the tool to the corner of our block and then run the NC program for machining. Machining can take upto 4 hrs depeding on the feed rate of the tool.
-<br>
-After the CNC, we carried out drilling of all blind holes to make them through holes. We also created counter sinks on the top surfaces of all the drilled holes to allow flushed fitting of fasterners.
+    
+    <br>
+    After machining the wooden block, we placed it onto the CNC Gantry. This involved, routing a gasket on the Gantry to allow for vaccum holding of the block. Once the block is tightly secured, we set the origin of the tool to the corner of our block and then run the NC program for machining. Machining can take upto 4 hrs depeding on the feed rate of the tool.
+    
+    <br>
+    After the CNC, we carried out drilling of all blind holes to make them through holes. We also created counter sinks on the top surfaces of all the drilled holes to allow flushed fitting of fasterners.
 
 - <ins>Post Processing:</ins> We filed and hand-sanded all the edges and surfaces of the hangboard to create smooth edges and surfaces. We did not stain of polish the wood as we need friction for hanging onto the hangboard.
 
