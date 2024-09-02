@@ -74,33 +74,31 @@ For the entire project we used these machines -- (1) Jointer, (2) Planar, (3) Mi
 
 **Hangboard**
 - <ins>CAD:</ins> We used the [Beastmaker 2000 trainingboard by Newtonhal on Thingiverse](https://www.thingiverse.com/thing:2802378) as our CAD model. We converted the STL file provided by Newtonhal to a SLDPRT file and simplified the triangles to faces. This step was necessary for CAM.
-</br>
+<br>
 - <ins>CAM:</ins> We used Autdesk Fusion 360 for CAM. BIDC provides access to their Gantry CNC CAM model which was used to do the CAM. We used a 3-axis CNC machine for the CAM and carried out the following operations -- TODO:
-</br>
+<!-- <br> -->
 - <ins>Machining:</ins> The Hangoard was majorly machined using the CNC Gantry. We first prepared a wooden block of the size detailed in BOM. To create the wooden block, we first used the Jointer to create two flat edges. Then we used the Planar to machine the raw material to the designed depth (6"). We finally used the Miter Saw and Table Saw to cut the block to the desired length and width. 
-    </br>
-
-    After machining the wooden block, we placed it onto the CNC Gantry. This involved, routing a gasket on the Gantry to allow for vaccum holding of the block. Once the block is tightly secured, we set the origin of the tool to the corner of our block and then run the NC program for machining. Machining can take upto 4 hrs depeding on the feed rate of the tool.
-    </br>
-
-    After the CNC, we carried out drilling of all blind holes to make them through holes. We also created counter sinks on the top surfaces of all the drilled holes to allow flushed fitting of fasterners.
+<br>
+After machining the wooden block, we placed it onto the CNC Gantry. This involved, routing a gasket on the Gantry to allow for vaccum holding of the block. Once the block is tightly secured, we set the origin of the tool to the corner of our block and then run the NC program for machining. Machining can take upto 4 hrs depeding on the feed rate of the tool.
+<br>
+After the CNC, we carried out drilling of all blind holes to make them through holes. We also created counter sinks on the top surfaces of all the drilled holes to allow flushed fitting of fasterners.
 <br>
 - <ins>Post Processing:</ins> We filed and hand-sanded all the edges and surfaces of the hangboard to create smooth edges and surfaces. We did not stain of polish the wood as we need friction for hanging onto the hangboard.
 
 **Baseboard**
 - <ins>Machining:</ins> We machined the baseboard to the dimensions detailed in the BOM. We used the following sequence of machining operations --  (1) Jointer, (2) Planar, (3) Miter Saw, and (4) Table Saw. We then hand-drill holes corresponding to the hangboard mounting bolts (6 holes for M8 bolts). We also hand-drill the holes corresponding to mounting of the flange (4*2 holes for Hex bolts 1/4 - 20 x 2). Finally, we add countersinks for the flange bolts. The flange bolt heads will be concealed as they are sandwiched between the hangboard and the baseboard.
-<br>
+
 - <ins>Post Processing:</ins> We filed and hand-sanded all the edges and surfaces of the baseboard to create smooth edges and surfaces. We did not stain of polish the wood.
 
 
 **Pull-Up Bar**
 We carried out the following steps:
 - <ins>Prep:</ins> Remove pastic caps and trim the soft grips on the Pull-Up bar pipes corresponding to chin-up exercise. 
-<br>
+
 - <ins>Assemble Pipe Fittings:</ins> We taped the pipe nipples using electrical tape. This was done to allow for a tight fit between the nipple and the pull-up bar pipe. After taping, we hammer the nipple into the pull-up bar pipes. Using some scrap wood as for hammering the nipple is adviced so as to avoid damaging the threads on the nipple. Also make sure that the two nipples are hammered roughly the same amount into the pipe. It is best to hammer till you can only see the threaded part. 
-<br>
+
 - <ins>Drill hole for locking bolt:</ins> We drill a vertical hole through the pull-up bar pipe and the fitted nipple. This hole is done to fit a locking bolt which prevents slipping of the nipple. 
-<br>
+
 - <ins>Attach the Flange:</ins> We finally screw the floor flanges onto the nipples.
 
 **Assembly**
