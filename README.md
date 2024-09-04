@@ -70,14 +70,14 @@ The total build costed roughly **$75**. The Pull-Up bar was half of this cost an
 ---
 ## Process Details
 
-For the entire project we used these machines -- (1) Jointer, (2) Planar, (3) Miter Saw, (4) Table Saw, (5) CNC Router (SR-100 by HAAS), and (6) Hand drilling tools with metal and wooden drill bits. What follows next is a brief description of the processing details of each part.
+For the entire project we used these machines -- (1) Jointer, (2) Planer, (3) Miter Saw, (4) Table Saw, (5) CNC Router (SR-100 by HAAS), and (6) Hand drilling tools with metal and wooden drill bits. What follows next is a brief description of the processing details of each part.
 
 **Hangboard**
 - <ins>CAD:</ins> We used the [Beastmaker 2000 trainingboard by Newtonhal on Thingiverse](https://www.thingiverse.com/thing:2802378) as our CAD model. We converted the STL file provided by Newtonhal to a SLDPRT file and simplified the triangles to faces. This step was necessary for CAM.
 
 - <ins>CAM:</ins> We used Autdesk Fusion 360 for CAM. BIDC provides access to their Gantry CNC CAM model which was used to do the CAM. We used a 3-axis CNC machine for the CAM and carried out the following operations -- (1) 2D Adaptive Clearing, (2) Steep and Shallow, (3) Drilling, and (4) 2D Contouring.
 
-- <ins>Machining:</ins> The Hangoard was majorly machined using the CNC Gantry. We first prepared a wooden stock of the size detailed in BOM. To create the wooden stock, we first used the Jointer to create two flat edges. Then we used the Planar to machine the raw material to the designed depth (6"). We finally used the Miter Saw and Table Saw to cut the stock to the desired length and width. 
+- <ins>Machining:</ins> The Hangoard was majorly machined using the CNC Gantry. We first prepared a wooden stock of the size detailed in BOM. To create the wooden stock, we first used the Jointer to create two flat edges. Then we used the Planer to machine the raw material to the designed depth (6"). We finally used the Miter Saw and Table Saw to cut the stock to the desired length and width. 
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After machining the wooden stock, we placed it onto the CNC Gantry. This involved, routing a gasket on the Gantry to allow for vaccum holding of the stock. Once the stock is tightly secured, we set the origin of the tool to the corner of our stock and then run the NC program for machining. Machining can take upto 4 hrs depeding on the feed rate of the tool.
 
@@ -86,7 +86,7 @@ For the entire project we used these machines -- (1) Jointer, (2) Planar, (3) Mi
 - <ins>Post Processing:</ins> We filed and hand-sanded all the edges and surfaces of the hangboard to create smooth edges and surfaces. We did not stain of polish the wood as we need friction for hanging onto the hangboard.
 
 **Baseboard**
-- <ins>Machining:</ins> We machined the baseboard to the dimensions detailed in the BOM. We used the following sequence of machining operations --  (1) Jointer, (2) Planar, (3) Miter Saw, and (4) Table Saw. We then hand-drill holes corresponding to the hangboard mounting bolts (6 holes for M8 bolts). We also hand-drill the holes corresponding to mounting of the flange (4*2 holes for Hex bolts 1/4 - 20 x 2). Finally, we add countersinks for the flange bolts. The flange bolt heads will be concealed as they are sandwiched between the hangboard and the baseboard.
+- <ins>Machining:</ins> We machined the baseboard to the dimensions detailed in the BOM. We used the following sequence of machining operations --  (1) Jointer, (2) Planer, (3) Miter Saw, and (4) Table Saw. We then hand-drill holes corresponding to the hangboard mounting bolts (6 holes for M8 bolts). We also hand-drill the holes corresponding to mounting of the flange (4*2 holes for Hex bolts 1/4 - 20 x 2). Finally, we add countersinks for the flange bolts. The flange bolt heads will be concealed as they are sandwiched between the hangboard and the baseboard.
 
 - <ins>Post Processing:</ins> We filed and hand-sanded all the edges and surfaces of the baseboard to create smooth edges and surfaces. We did not stain of polish the wood.
 
