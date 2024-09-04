@@ -41,14 +41,14 @@ Checkout the [Youtube video of CNC Machining](https://youtube.com/shorts/6XokEio
 <detials>
 <summary>Hangboard</summary>
 
-- **Raw Material**: Poplar wooden stock machined to the size of (L:7", W:24" , D:2.4"). This was provided by [BIDC](https://www.purdue.edu/bidc/)
+- **Raw Material**: Poplar wooden stock machined to the size of (L: 7", W: 24" , D: 2.4"). This was provided by [BIDC](https://www.purdue.edu/bidc/)
 - **Fasteners**: M8x1.25 Phillips head Machine Screws with Falt Washer and Hex Nut (Qty: 6). Out of the 6 screws, only one bolt was 80 mm long, others were 60 mm long.
 </details>
 
 <detials>
 <summary>Baseboard</summary>
 
-- **Raw Material**: Maple wooden stock machined to the size of (L:6.5", W:23" , D:1"). This was provided by [BIDC](https://www.purdue.edu/bidc/)
+- **Raw Material**: Maple wooden stock machined to the size of (L: 6.5", W: 23" , D: 1"). This was provided by [BIDC](https://www.purdue.edu/bidc/)
 </details>
 
 <detials>
