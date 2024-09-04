@@ -33,7 +33,7 @@ The Hangboard is similar to the BeastMaker 2000 and we mounted it onto the Iron 
 <a><img src="pics/locking_bolt2.jpeg" alt="locking bolt with flange" width=20%></a>
 </p>
 
-Checkout the [Youtube video of CNC Machining](https://youtube.com/shorts/6XokEioxSRE?feature=share)
+Checkout the [Youtube video of CNC Machining](https://youtube.com/shorts/6XokEioxSRE?feature=share) and [Youtube video of CAM simulation](https://youtu.be/lj9m0k9sqps)
 
 ---
 ## Bill of Material
@@ -41,14 +41,14 @@ Checkout the [Youtube video of CNC Machining](https://youtube.com/shorts/6XokEio
 <detials>
 <summary>Hangboard</summary>
 
-- **Raw Material**: Poplar wooden block machined to the size of (L:6.5', W:23' , D:TODO). This was provided by [BIDC](https://www.purdue.edu/bidc/)
+- **Raw Material**: Poplar wooden stock machined to the size of (L:7", W:24" , D:2.4"). This was provided by [BIDC](https://www.purdue.edu/bidc/)
 - **Fasteners**: M8x1.25 Phillips head Machine Screws with Falt Washer and Hex Nut (Qty: 6). Out of the 6 screws, only one bolt was 80 mm long, others were 60 mm long.
 </details>
 
 <detials>
 <summary>Baseboard</summary>
 
-- **Raw Material**: Maple wooden block machined to the size of (L:6.5", W:23" , D:1"). This was provided by [BIDC](https://www.purdue.edu/bidc/)
+- **Raw Material**: Maple wooden stock machined to the size of (L:6.5", W:23" , D:1"). This was provided by [BIDC](https://www.purdue.edu/bidc/)
 </details>
 
 <detials>
@@ -70,16 +70,16 @@ The total build costed roughly **$75**. The Pull-Up bar was half of this cost an
 ---
 ## Process Details
 
-For the entire project we used these machines -- (1) Jointer, (2) Planar, (3) Miter Saw, (4) Table Saw, (5) CNC Gantry (TODO:details), and (6) Hand drilling tools with metal and wooden drill bits. What follows next is a brief description of the processing details of each part.
+For the entire project we used these machines -- (1) Jointer, (2) Planar, (3) Miter Saw, (4) Table Saw, (5) CNC Router (SR-100 by HAAS), and (6) Hand drilling tools with metal and wooden drill bits. What follows next is a brief description of the processing details of each part.
 
 **Hangboard**
 - <ins>CAD:</ins> We used the [Beastmaker 2000 trainingboard by Newtonhal on Thingiverse](https://www.thingiverse.com/thing:2802378) as our CAD model. We converted the STL file provided by Newtonhal to a SLDPRT file and simplified the triangles to faces. This step was necessary for CAM.
 
-- <ins>CAM:</ins> We used Autdesk Fusion 360 for CAM. BIDC provides access to their Gantry CNC CAM model which was used to do the CAM. We used a 3-axis CNC machine for the CAM and carried out the following operations -- TODO:
+- <ins>CAM:</ins> We used Autdesk Fusion 360 for CAM. BIDC provides access to their Gantry CNC CAM model which was used to do the CAM. We used a 3-axis CNC machine for the CAM and carried out the following operations -- (1) 2D Adaptive Clearing, (2) Steep and Shallow, (3) Drilling, and (4) 2D Contouring.
 
-- <ins>Machining:</ins> The Hangoard was majorly machined using the CNC Gantry. We first prepared a wooden block of the size detailed in BOM. To create the wooden block, we first used the Jointer to create two flat edges. Then we used the Planar to machine the raw material to the designed depth (6"). We finally used the Miter Saw and Table Saw to cut the block to the desired length and width. 
+- <ins>Machining:</ins> The Hangoard was majorly machined using the CNC Gantry. We first prepared a wooden stock of the size detailed in BOM. To create the wooden stock, we first used the Jointer to create two flat edges. Then we used the Planar to machine the raw material to the designed depth (6"). We finally used the Miter Saw and Table Saw to cut the stock to the desired length and width. 
 
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After machining the wooden block, we placed it onto the CNC Gantry. This involved, routing a gasket on the Gantry to allow for vaccum holding of the block. Once the block is tightly secured, we set the origin of the tool to the corner of our block and then run the NC program for machining. Machining can take upto 4 hrs depeding on the feed rate of the tool.
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After machining the wooden stock, we placed it onto the CNC Gantry. This involved, routing a gasket on the Gantry to allow for vaccum holding of the stock. Once the stock is tightly secured, we set the origin of the tool to the corner of our stock and then run the NC program for machining. Machining can take upto 4 hrs depeding on the feed rate of the tool.
 
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After the CNC, we carried out drilling of all blind holes to make them through holes. We also created counter sinks on the top surfaces of all the drilled holes to allow flushed fitting of fasterners.
 
@@ -92,6 +92,7 @@ For the entire project we used these machines -- (1) Jointer, (2) Planar, (3) Mi
 
 
 **Pull-Up Bar**
+
 We carried out the following steps:
 - <ins>Prep:</ins> Remove pastic caps and trim the soft grips on the Pull-Up bar pipes corresponding to chin-up exercise. 
 
@@ -102,6 +103,7 @@ We carried out the following steps:
 - <ins>Attach the Flange:</ins> We finally screw the floor flanges onto the nipples.
 
 **Assembly**
+
 After fininshing the three components above, we first assembled the baseboard onto the pull-up bar by tightening the flange bolts. We then mounted the hangboard onto the baseboard and tightened all the fasteners on the hangboard.
 
 ---
