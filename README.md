@@ -22,7 +22,7 @@ The Hangboard is similar to the BeastMaker 2000 and we mounted it onto the Iron 
 <em>DIY Hangboard</em>
 <br>
 <a><img src="pics/machining.png" alt="machining processes" width=30%></a>
-<a><img src="pics/cnc.jpeg" alt="after CNC" width=30%></a>
+<!-- <a><img src="pics/cnc.jpeg" alt="after CNC" width=30%></a> -->
 <br>
 <a><img src="pics/final_0.jpeg" alt="final front" width=30%></a>
 <a><img src="pics/final_1.jpeg" alt="final front" width=30%></a>
